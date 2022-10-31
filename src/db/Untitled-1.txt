@@ -1,0 +1,15 @@
+404: not found
+201: Created
+
+mongodb: data storage app.
+robo3t: allows you to see your mongodb database
+Studio3t: More advanced version of robo3t
+nodejs: js server on the operating system.
+realEngine5: make convincing landscape, and sprites for games
+Figma: helps to visualize when you are creating a website
+VSCode: text editor designed for coding.
+WebStorm: is another form of VScode
+VisualStudio: for working with c++
+Discord: contact people.
+Github: put your work on the internet so others can view internet
+postman: testing port forwarding
