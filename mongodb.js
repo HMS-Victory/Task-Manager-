@@ -22,53 +22,6 @@ MongoClient.connect(connectionURL, { useNewUrlParser: true }, (error, client) =>
 
 
 
-   // HOW TO UPDATE DATA IN MONGODB
-   // db.collection('users').updateOne({
-   // filter the item to update
-   //    _id: new ObjectID("633ee51f0c956e516137af32")
-   // }, {
-   // how to update the item
-   //    $inc: {
-   //       age: 1
-   //    }
-   //    // this syntax, makes far more sense to me
-   // }).then((result) => {
-   //    console.log(result)
-   // }).catch((error) => {
-   //    console.log(error);
-   // });;
-
-   // Update large chunks of data at once
-   // db.collection('tasks').updateMany({
-   // filter the ones to change
-   //    completed: false
-   // }, {
-   // changing the data
-   //    $set: {
-   //       completed: true
-   //    }
-   // }).then((result) => {
-   //    console.log(result.modifiedCount);
-   // }).catch((error) => {
-   //    console.log(error);
-   // });
-
-   // db.collection('tasks').deleteMany({
-   //    completed: true
-
-   // }).then((result) => {
-   //    console.log(result);
-   // }).catch((error) => {
-   //    console.log(error);
-   // });
-
-   // db.collection('users').deleteOne({
-   //    _id: new ObjectId('633da8790df419904762248a')
-   // }).then((result) => {
-   //    console.log(result);
-   // }).catch((error) => {
-   //    console.log(error);
-   // });
 });
 
 // find out more about mongodb at the online documentation
